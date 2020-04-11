@@ -1,4 +1,4 @@
-FROM znc:1.6.5
+FROM znc:1.7.5
 MAINTAINER "Gerard Hickey <hickey@kinetic-compute.com>"
 
 ADD default-znc.conf /opt/znc/share/
