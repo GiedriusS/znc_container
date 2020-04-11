@@ -7,6 +7,13 @@ The rational for this branch is for environments that access to a
 mounted volume is difficult before the container is started
 (i.e. Kubernetes). 
 
+Docker Hub
+----------
+
+The image is available at [Docker Hub](https://hub.docker.com/repository/docker/stag1e/znc_container)
+for ease of use. This let's you use `stag1e/znc_container:1.7.5` in your
+Kubernetes deployments.
+
 Differences from official ZNC container
 ---------------------------------------
 This container operates exactly like the official ZNC container
